@@ -1,0 +1,36 @@
+# Данные (не выкладываем собранную базу)
+*.csv
+*.xlsx
+*.json
+*.sql
+
+# Окружение и секреты
+.env
+venv/
+env/
+ENV/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+
+# Логи (парсеры часто генерируют много логов)
+*.log
+logs/
+
+# Специфично для Selenium/Playwright (если будешь использовать)
+/drivers/
+ghostdriver.log
+
+# Дампы страниц и временные HTML файлы
+*.html
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Настройки IDE (редакторов кода)
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
